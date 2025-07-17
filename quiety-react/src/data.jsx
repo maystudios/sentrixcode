@@ -478,6 +478,11 @@ const navHomeFour = [
     info: "Charity home",
     href: "/charity",
   },
+    {
+    title: "Sentrix Code",
+    info: "Sentrix Code home",
+    href: "/sentrix-code",
+  },
 ];
 
 //Offcanvas Menu
@@ -685,6 +690,11 @@ const offcanvasMenuData = [
     title: "Charity",
     info: "Charity home",
     href: "/charity",
+  },
+  {
+    title: "Sentrix Code",
+    info: "Sentrix Code home",
+    href: "/sentrix-code",
   },
 ];
 

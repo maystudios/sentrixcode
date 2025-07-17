@@ -69,6 +69,7 @@ import MarketplaceAgency from "./themes/index37/MarketplaceAgency";
 import JobFinder from "./themes/index38/JobFinder";
 import JobFinderTwo from "./themes/index39/JobFinderTwo";
 import Charity from "./themes/index40/Charity";
+import SentrixCode from "./themes/index41/Sentrixcode";
 
 function App() {
   return (
@@ -130,6 +131,7 @@ function App() {
           <Route path="/job-finder" element={<JobFinder />} />
           <Route path="/job-finder-2" element={<JobFinderTwo />} />
           <Route path="/charity" element={<Charity />} />
+          <Route path="/sentrix-code" element={<SentrixCode />} />
 
           <Route path="/single-product" element={<SingleProduct />} />
           <Route path="/portfolio-single" element={<SinglePortfolio />} />
