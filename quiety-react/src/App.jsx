@@ -71,13 +71,19 @@ import JobFinderTwo from "./themes/index39/JobFinderTwo";
 import Charity from "./themes/index40/Charity";
 import SentrixCode from "./themes/index41/Sentrixcode";
 
+import SentrixAppointmentPage from "./pages/SentrixAppointmentPage"; // Stellen Sie sicher, dass der Pfad stimmt
+
 function App() {
+
   return (
     <>
       <Router>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomeSassOne />} />
+          {/* HINZUGEFÜGT: Die neue Route für die Terminbuchungsseite */}
+          <Route path="termin" element={<SentrixAppointmentPage />} />
+
           <Route path="/home-sass-two" element={<HomeSassTwo />} />
           <Route path="/home-desktop-app" element={<HomeDesktopApp />} />
           <Route path="/home-app-landing" element={<HomeAppLanding />} />
