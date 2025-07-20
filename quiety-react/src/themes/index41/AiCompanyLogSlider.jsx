@@ -21,7 +21,7 @@ const AiCompanyLogSlider = () => {
                 <Swiper
                   modules={[Navigation, Pagination, Autoplay]}
                   spaceBetween={30}
-                  slidesPerView={4}
+                  slidesPerView={"auto"}
                   autoplay={{
                     delay: 0, // Set to 0 for continuous autoplay
                     disableOnInteraction: false, // Keeps autoplay running even after user interaction
